@@ -4,7 +4,6 @@ login {
   right: 30px;
 }
 </style>
-<head>
 <script>
 $(function(){
     $(".dropdown-menu > li > a.trigger").on("click",function(e){
@@ -24,8 +23,7 @@ $(function(){
     });
 });
 </script>
-
-<head>
+<body>
     <div class ="container">
         <div class = "row">
             <div class="col-12">
@@ -35,77 +33,7 @@ $(function(){
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Maestro</a>
                         
                         <ul class="dropdown-menu">
-                            <li>
-                                <a class="trigger right-caret nav-link">Noticia</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
                             
-                            <li>
-                                <a class="trigger right-caret nav-link">Medicina</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <a class="trigger right-caret nav-link">Consultorio</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                    
-                            <li>
-                                <a class="trigger right-caret nav-link">Especialidades</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                
-                            <li>
-                                <a class="trigger right-caret nav-link">Enfermedades</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                    
-                            <li>
-                                <a class="trigger right-caret nav-link">Laboratorio</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                    
-                            <li>
-                                <a class="trigger right-caret nav-link">Radiología</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
-                    
-                            <li>
-                                <a class="trigger right-caret nav-link">Servicios</a>
-                                <ul class="dropdown-menu sub-menu">
-                                    <a class="dropdown-item" href="?controller=Noticia&action=ListarNoticia">Listar</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="?controller=Noticia&action=IngresarNoticia">Ingresar</a>
-                                </ul>
-                            </li>
                     
                             <li>
                                 <a class="trigger right-caret nav-link">Domicilio</a>
@@ -172,15 +100,8 @@ $(function(){
                             </li>
                         </ul>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                    <login>
-                        <a class="text-dark" text-align="right"> <b> Usuario: </b> <?php echo $_SESSION['User']?> <b>  Nivel:</b> <?php echo $_SESSION['Nivel']?> </a>
-                    </login>
                 </ul>
             </div>
         </div>
     </div>
-</head>
+</body>

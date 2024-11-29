@@ -1,6 +1,6 @@
 <?php 
   session_start();
-  $_SESSION['User'] = "Suha-Zaba";
+  $_SESSION['User'] = "Suha_Zaba";
   $_SESSION['Nivel'] = "Doctor";
 
   if (isset($_GET['controller'])&&isset($_GET['action'])) {

@@ -1,12 +1,7 @@
 <?php 
-
 class NoticiaModel
 {
-	
-	function __construct()
-	{
-	
-	}
+	function __construct(){}
 
 	// FUNCIONES GENERICAS PARA CONSULTAR Y ACTUALIZAR (INSERTAR, MODIFICAR Y ELIMINAR)
 
@@ -34,16 +29,12 @@ class NoticiaModel
 				$result = true;
 		    }
 		}
-
 		$conexion = Conectar::desconexion($conexion);
-
 	  	return $result;
 	}
 
-	
     // para el resto de las operaciones
 	
-
 	public static function ListarNoticia(){
 		$sql_noticia = "SELECT id, trim(titular) as titular, trim(url_imagen) as url_imagen, trim(url_noticia) as url_noticia, fecha, visible, categoria FROM tbl_noticias ORDER BY id asc";
 		$result_noticia = NoticiaModel::Get_Data($sql_noticia);
@@ -81,7 +72,6 @@ class NoticiaModel
   		return $result_noticia;
 	}
 
-	
 	// Para eliminar
 
 	public static function DeleteNoticia ($id){
@@ -90,5 +80,4 @@ class NoticiaModel
   		return $result_noticia;
 	}
 }
-
 ?>

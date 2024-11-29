@@ -1,16 +1,9 @@
+
 <div id="footer" align="center">
-
-    <br> <br> <br>
-    </b>
     <div class="container">
-
         <br>
-
         <div class="accordion" id="accordionFoot">
-
             <div class="card">
-
-
                 <div class="card-header" id="headingFoot">
                     <h6 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFoot" aria-expanded="false" aria-controls="collapseFoot">
@@ -19,8 +12,6 @@
                         </button>
                     </h6>
                 </div>
-
-
                 <div id="collapseFoot" class="collapse" aria-labelledby="headingFoot" data-parent="#accordionFoot">
                     <div class="card-body">
                         <div class="row">
@@ -50,3 +41,4 @@
             <br><br><br>
         </div>
     </div>
+</div>

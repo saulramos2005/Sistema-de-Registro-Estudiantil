@@ -14,7 +14,6 @@ if (@array_key_exists($controller, $controllers)) {
 		call('Noticia','ListarNoticia');
 	}		
 }else{
-	
 	call('Noticia','ListarNoticia');
 }
 

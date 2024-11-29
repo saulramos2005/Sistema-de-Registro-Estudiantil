@@ -3,9 +3,3 @@
       	    require_once('../ejercicio/views/admon/submenu.php');
       ?>
 </div>
-
-
-
-		
-	
-		     

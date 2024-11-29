@@ -4,7 +4,7 @@ class NoticiaController
 	function __construct(){}
 
  	function ListarNoticia(){
-		require_once('../ejercicio/views/noticias/listnot.php');
+		//require_once('../ejercicio/views/noticias/listnot.php');
 	}
 
 	static public function ListarNoticia1(){
